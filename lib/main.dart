@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
               background:const Color.fromARGB(255, 211, 209, 209)),
           useMaterial3: true,
         ),
-        // home: const ScreenHome(),
+        home: const ScreenHome(),
       ),
     );
   }  
