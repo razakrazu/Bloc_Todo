@@ -29,11 +29,11 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
       
-        theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(
-              seedColor:const Color.fromARGB(255, 255, 255, 255),
-              background:const Color.fromARGB(255, 211, 209, 209)),
-          useMaterial3: true,
+        // theme: ThemeData(
+        //   colorScheme: ColorScheme.fromSeed(
+        //       seedColor:const Color.fromARGB(255, 255, 255, 255),
+        //       background:const Color.fromARGB(255, 211, 209, 209)),
+        //   useMaterial3: true,
         ),
         home: const ScreenHome(),
       ),
